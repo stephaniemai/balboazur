@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Limelight|Marcellus");
+@import url("button.css");
+
+body {
+	font-family: 'Marcellus';
+	color: white;
+}
+
+
+h1 {
+	font-family: 'Limelight';
+}
+
+.container-fluid {
+
+}
+
+#banner {
+	background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url("https://images.unsplash.com/photo-1499561385668-5ebdb06a79bc");
+	background-size: cover !important;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+/*	text-align: center;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.banner-content {
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner-content h1 {
+	text-align: center;
+     font-size: 70px;
+ }
+
+.banner-content p {
+    font-size: normal;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+#lang {
+	display: flex;
+	justify-content: flex-end;
+	border-style: solid;
+	border-width: 2px;
+/*	font-size: small;*/
+}
+
+#lang a{
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+}
+
+#lang ul {
+
+}
+
+#lang li {
+	list-style: none;
+}
+
+#lang a:hover {
+	text-decoration: none;
+	color: white;
+	opacity: 1;
+}
